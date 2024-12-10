@@ -8,7 +8,7 @@ var differenceOfSums = function(n, m) {
     let num2Total =0
 
     for(let i = 0; i<=n;i++){
-        if(i%m!==0){
+        if(i%m){
             num1Total+=i
         }else{
             num2Total+=i
